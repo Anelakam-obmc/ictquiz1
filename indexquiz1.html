@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+  color: orange;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.crypto-card {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto-symbol {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #f9a825; 
+}
+
+.crypto-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.crypto-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+
+}
+
+.crypto-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+img{
+  height: 200px;
+width: 200px;
+}
+</style>
+<body>
+  <div class="container"> 
+
+        <h1 class="text-center">Crypto Currency</h1>
+        <p class="text-center">3 crypto currencies</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="crypto-symbol">B</div>
+                        <h5 class="card-title">Bitcoin</h5>
+                        <p class="card-text">Bitcoin (BTC) is a cryptocurrency (a virtual currency) designed to act as money and a form of payment outside the control of any one person, group, or entity.</p>
+                        <p class="card-text">PHP Value: ₱5,453,954.22</p>
+                        <img src="bitcoin.jpeg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                </div>
+            <div class="col-md-4">
+                </div>
+        </div>
+    </div>
+     <div class="container">
+
+        <h1 class="text-center">Crypto Currency</h1>
+        <p class="text-center">3 crypto currencies</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="crypto-symbol">D</div>
+                        <h5 class="card-title">DogeCoin</h5>
+                        <p class="card-text">Dogecoin (DOGE) is an open-source, peer-to-peer cryptocurrency that was made as a parody of the crypto market following the establishment of Bitcoin. </p>
+                        <p class="card-text">PHP Value: ₱22.62</p>
+                        <img src="Dogecoin.jpeg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                </div>
+            <div class="col-md-4">
+                </div>
+        </div>
+    </div>
+     <div class="container">
+
+        <h1 class="text-center">Crypto Currency</h1>
+        <p class="text-center">3 crypto currencies</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="crypto-symbol">E</div>
+                        <h5 class="card-title">Etherum</h5>
+                        <p class="card-text">Ethereum is a blockchain-based computing platform that enables developers to build and deploy decentralized applications—meaning not run by a centralized authority.</p>
+                        <p class="card-text">PHP Value: PHP184,734.83</p>
+                        <img src="etherum.jpeg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                </div>
+            <div class="col-md-4">
+                </div>
+        </div>
+    </div>
+    <div clas="mb-3">
+    <button class="btn btn-primary">Make sure to check other websites!</button>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
